@@ -1,0 +1,1 @@
+valores=int(input

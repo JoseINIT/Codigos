@@ -1,0 +1,5 @@
+archivo = open("mi_archivo.txt", "a")
+archivo.write("\nNuevo inicio de sesión")
+archivo.close()
+archivo = open("mi_archivo.txt", "r")
+print(archivo.read())
